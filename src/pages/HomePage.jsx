@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { BiExit } from "react-icons/bi";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "../contexts/UserContext";
 import apiTransaction from "../services/apiTransactions";
